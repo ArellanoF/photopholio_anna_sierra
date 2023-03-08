@@ -390,3 +390,12 @@ body{
 .bg-color4{
     background-color: var(--color4);
 }
+
+.border-radius8{
+    border-radius: 0.8rem;
+}
+.text-color1{
+    color: var(--color1);
+}
+
+
