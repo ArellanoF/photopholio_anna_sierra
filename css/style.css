@@ -217,7 +217,19 @@ body{
 
 
 /*** Roadmap ***/
-.roadmap-carousel {
+.roadmap-carousel .owl-nav {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.roadmap-carousel .roadmap-item {
+    position: relative;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--color4);
+    border-radius: 1rem;
+}
+/* .roadmap-carousel {
     position: relative;
 }
 
@@ -307,7 +319,7 @@ body{
 .roadmap-carousel .owl-nav .owl-next:hover {
     color: var(--primary);
     background: var(--dark);
-}
+} */
 
 
 /*** FAQs ***/
