@@ -40,42 +40,92 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg  sticky-top p-0 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <h2 class="m-0 text-primary"><img class="img-fluid me-2" src="img/icon-1.png" alt="" style="width: 45px;">CryptoCoin</h2>
-        </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="roadmap.html" class="nav-item nav-link">Roadmap</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu shadow-sm m-0">
-                        <a href="feature.html" class="dropdown-item">Feature</a>
-                        <a href="token.html" class="dropdown-item">Token Sale</a>
-                        <a href="faq.html" class="dropdown-item">FAQs</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link active">Contact</a>
+    <nav
+      class="navbar navbar-expand-lg sticky-top p-0 px-lg-5 mobile-dnone"
+      style="height: 7rem"
+    >
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <h2 class="m-0 color-text-header">
+          <img
+            class="img-fluid me-2"
+            src="img/logoWeb.png"
+            alt=""
+            style="width: 130px"
+          />Anna Sierra
+        </h2>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"
+          ><i class="fa-solid fa-bars"></i
+        ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto py-4 py-lg-0 align-items-center">
+          <a href="index.html" class="nav-item nav-link">Home</a>
+          <a href="about.html" class="nav-item nav-link">About</a>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              style="text-align: center"
+              >Servicios</a
+            >
+            <div
+              class="dropdown-menu m-0"
+              style="text-align: center; border-radius: 1rem"
+            >
+              <a href="feature.html" class="dropdown-item color-text-header"
+                >Familiar</a
+              >
+              <a href="token.html" class="dropdown-item color-text-header"
+                >Bodas</a
+              >
+              <a href="faq.html" class="dropdown-item color-text-header"
+                >Premama</a
+              >
+              <a href="404.html" class="dropdown-item color-text-header"
+                >New Born</a
+              >
+              <a href="404.html" class="dropdown-item color-text-header"
+                >Infantiles</a
+              >
+              <a href="404.html" class="dropdown-item color-text-header"
+                >Smash</a
+              >
+              <a href="404.html" class="dropdown-item color-text-header"
+                >Eventos</a
+              >
+              <a href="404.html" class="dropdown-item color-text-header"
+                >Portrait
+              </a>
             </div>
-            <div class="h-100 d-lg-inline-flex align-items-center d-none">
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-instagram"></i></a>
-                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-linkedin-in"></i></a>
-            </div>
+          </div>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
+        <div class="h-100 d-lg-inline-flex align-items-center d-none">
+          <a class="btn btn-square rounded-circle bg-light me-2" href=""
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a class="btn btn-square rounded-circle bg-light me-2" href=""
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a class="btn btn-square rounded-circle bg-light me-0" href=""
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
     </nav>
     <!-- Navbar End -->
 
 
     <!-- Header Start -->
-    <div class="container-fluid hero-header bg-color4 py-5 mb-5">
+    <div class="container-fluid hero-header py-5 mb-5">
         <!-- Contact Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -89,6 +139,34 @@
                 </div>
             </div>
             <div class="row g-5">
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">Gracias por llegar hasta aquí.  Ahora que ya conoces más de mi, me permites conocerte también?</p>
+                    <form  method="post" action="https://forms.un-static.com/forms/94c913d152862388a56ba14fc7d727c481901ad4">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input x-ref="content" x-model="content" type="text" id="input_inputField1" name="Name" placeholder="Tu nombre" class="input-form">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input x-ref="content" x-model="content" type="email" id="input_inputField2" name="Email" placeholder="Tu email" class="input-form">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea x-ref="area" id="input_inputMessage" name="Message" class="input-form" placeholder="Mensaje" style="height: 18rem;
+                                    resize: none;"></textarea>  
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn py-3 px-4" type="submit" style="background: var(--color4);
+                                color: var(--color1);">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
                 <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <hr class="w-100">
                     <p class="mb-2">Call us:</p>
@@ -103,40 +181,6 @@
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                </div>
-                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="mb-4">Gracias por llegar hasta aquí.  Ahora que ya conoces más de mi, me permites conocerte también?</p>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                    <label for="name">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                    <label for="email">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-4" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
@@ -161,18 +205,6 @@
         </div> -->
     </div>
     <!-- Header End -->
-
-
-    
-
-
-    <!-- Google Map Start -->
-    <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
-        <iframe class="w-100 mb-n2" style="height: 450px;"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-            frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-    <!-- Google Map End -->
 
 
     <!-- Footer Start -->

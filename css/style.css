@@ -538,3 +538,14 @@ body{
   .product-box:hover img {
     transform:rotate(-10deg) scale(1.2);
   }
+
+  .input-form{
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    border: none;
+    color: #88888C;
+    background-color: #F5FBF8;
+  }
