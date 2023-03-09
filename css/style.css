@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/ibm-plex-sans');
+@import url('https://fonts.cdnfonts.com/css/pinyon-script');
 /********** Template CSS **********/
 :root {
     --primary: #16D5FF;
@@ -10,6 +11,7 @@
     --color3: #DBC8AC;
     --color4: #EED8C0;
     --color5: #000000;
+    --font-family_pinyon: 'Pinyon Script', sans-serif;
 }
 
 .back-to-top {
@@ -92,14 +94,12 @@ body{
 .dropdown-menu{
     padding: 0 !important;
 }
-.dropdown-item{
-    background-color: var(--color2);
-}
+
 .color-text-header{
-    color: var(--color4) !important;
+    color: var(--color2) !important;
 }
 .navbar{
-    background-color: var(--color2);
+    background-color: var(--color4);
 }
 
 .navbar .navbar-brand {
@@ -109,14 +109,14 @@ body{
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: var(--color3);
+    color: var(--color2);
     font-weight: 500;
     outline: none;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--color4);
+    color: white;
 }
 
 .navbar .dropdown-toggle::after {
@@ -135,8 +135,8 @@ body{
     }
 
     .navbar .navbar-nav {
-        border-top: 1px solid var(--color2);
-        background-color: var(--color2);;
+        border-top: 1px solid var(--color4);
+        background-color: var(--color4);;
     }
     .media-footer{
         display: flex;
@@ -147,6 +147,9 @@ body{
     }
     .order1{
         order:1
+    }
+    .mobile-dnone{
+        display: none;
     }
 }
 
@@ -384,11 +387,11 @@ body{
 }
 
 .footer{
-    background-color: var(--color2);
+    background-color: var(--color4);
 }
 
-.bg-color4{
-    background-color: var(--color4);
+.bg-color2{
+    background-color: var(--color2);
 }
 
 .border-radius8{
@@ -398,4 +401,8 @@ body{
     color: var(--color1);
 }
 
-
+.dropdown-menu {
+     background-color: var(--color4);
+     border: 0px solid rgba(0,0,0,0.15);
+     border-radius: 0px; 
+}
