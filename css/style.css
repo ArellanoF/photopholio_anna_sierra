@@ -172,6 +172,10 @@ body{
         padding-top: 0;
         position: static;
     }
+    .container-mobile {
+        width: 100vw !important;
+        padding: 0;
+      }
 }
 
 @media (min-width: 992px) {
