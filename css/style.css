@@ -406,3 +406,12 @@ body{
      border: 0px solid rgba(0,0,0,0.15);
      border-radius: 0px; 
 }
+
+.section-intro{
+    background-image: url(https://www.cevagraf.coop/blog/wp-content/uploads/2019/04/aprender-fotografia_dest.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 75vh;
+}
